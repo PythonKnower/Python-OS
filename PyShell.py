@@ -4,11 +4,12 @@ from datetime import datetime
 import platform
 import getpass
 import random
+from tqdm import tqdm
 
 start_time = t.time()
 
-PYOS_VERSION = "v0.04.0-Beta-1"
-PS_VERSION = "v0.17.0-Beta-8"
+PYOS_VERSION = "v0.08.0-Beta-1"
+PS_VERSION = "v0.18.0-Beta-8"
 username = "PyShell"
 
 # first set of facts/snippets only
@@ -82,6 +83,26 @@ while True:
     elif cmd == "coinflip":
         result = random.choice(["Heads", "Tails"])
         print(f"Coin Flip Result: {result}")
+    elif cmd == "fakeinstall":
+        print("Downloading Renderer...")
+
+        file_size = 380
+        chunk_size = 1
+        file_size2 = 128
+
+        for i in tqdm(range(0, file_size, chunk_size),
+                  desc="Libraries from 'Renderer' are being installed...",
+                  unit="MB"):
+            t.sleep(0.01)
+
+        for i in tqdm(range(0, file_size2, chunk_size),
+                  desc="Library 'Renderer' is being installed...",
+                  unit="MB"):
+            t.sleep(0.03)
+        print("Installed 'Renderer'!")
+        
+     
+    
 
     elif cmd == "h":
         print("Commands:\n"
@@ -97,6 +118,7 @@ while True:
               "fact - Random fact\n"
               "diyk - Extra facts/snippets\n"
               "coinflip - Flip a digital coin\n"
+              "fakeinstall - Installs a library, without installing, MUST HAVE tqdm installed!\n"
               "exit - Exit PyShell")
 
     elif cmd == "exit":
