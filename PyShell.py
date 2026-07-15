@@ -90,6 +90,9 @@ while True:
 
     elif cmd == "diyk":
         print(random.choice(diyk_items))
+    
+    elif cmd == "joke":
+        print(random.choice(jokes))
 
     elif cmd == "coinflip":
         result = random.choice(["Heads", "Tails"])
