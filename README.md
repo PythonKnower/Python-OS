@@ -12,3 +12,14 @@ Yes. You have to install 'requests' using 'pip install requests'.
 You must install them to run commands that require web-searching or info-lookup, for example: Weather, IP, Location and etc.
 ## Can you download it in PyShell?
 Yes, if only I remember.. I just really don't know. ChatGPT made the program.. With me.
+# How do you describe tags currently for versions?
+The tags are like this:
+- #.#.#-Alpha-10
+- #.#.#-Alpha-1
+- #.#.#-Beta-10
+- #.#.#-Beta-1
+- #.#.#-rc-10
+- #.#.#-rc-1
+- #.#.#-release
+
+The higher the number after a tag like Alpha, Beta, rc, the more unstable/unfinished the version is. Do not confuse it with being the stabler version.
