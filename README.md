@@ -1,5 +1,5 @@
 # What is Python OS?
-Python OS, Is a simple app made in Python, which is made in Python 3.14.0.
+Python OS, Is a simple app made in Python, which is made in Python 3.11.0.
 The program is like cmd.exe (A terminal) but made in Python with ChatGPT and Max (Me).
 # How does it work?
 (I don't know. Read the code.)
