@@ -22,4 +22,6 @@ The tags are like this:
 - #.#.#-rc-1
 - #.#.#-release
 
+The tags are more like: {major}.{minor}.{patch}-{tag}-{instability}
+
 The higher the number after a tag like Alpha, Beta, rc, the more unstable/unfinished the version is. Do not confuse it with being the stabler version.
