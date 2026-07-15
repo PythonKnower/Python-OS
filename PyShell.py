@@ -29,6 +29,17 @@ diyk_items = [
     "DIYK: name = input('Name: '); print(name)  # Input example"
 ]
 
+jokes = [
+    "Why don't scientists trust atoms? Because they make up everything.",
+    "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "I'm reading a book on the history of glue. I just can't seem to put it down.",
+    "Why did the chicken go to the seance? To talk to the other side.",
+    "I'm reading a book on anti-gravity. It's impossible to put down!",
+    "Why did the coffee file a police report? It got mugged.",
+    "Why did the programmer quit? ...Because they didnt get arrays."
+]
+
 print(f"Created in 2025, by ChatGPT and Max.\nUser: {username}\nPythonShell version: {PS_VERSION}\nType 'H' or 'h' to list all commands.")
 
 while True:
@@ -118,6 +129,7 @@ while True:
               "fact - Random fact\n"
               "diyk - Extra facts/snippets\n"
               "coinflip - Flip a digital coin\n"
+              "joke - Makes a joke about something.\n"
               "fakeinstall - Installs a library, without installing, MUST HAVE tqdm installed!\n"
               "exit - Exit PyShell")
 
