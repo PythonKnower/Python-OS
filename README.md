@@ -21,7 +21,9 @@ The tags are like this:
 - #.#.#-rc-10
 - #.#.#-rc-1
 - #.#.#-release
+- #.#.#-dev
 
 The tags are more like: {major}.{minor}.{patch}-{tag}-{instability}
 
 The higher the number after a tag like Alpha, Beta, rc, the more unstable/unfinished the version is. Do not confuse it with being the stabler version.
+dev tag means that it is the most unstable version of the PyOS and is not going to be released until it is stable enough. (Like #.#.#-Beta-10, or in some cases it would be released at #.#.#-Alpha-10)

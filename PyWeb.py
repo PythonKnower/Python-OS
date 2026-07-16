@@ -4,6 +4,7 @@ import webbrowser
 
 
 VERSION = "PyBrowser v0.2"
+PYOS_VERSION = "v0.10.0-dev"
 
 
 def search_web(query):
@@ -67,6 +68,7 @@ def search_web(query):
 def browser():
 
     print(VERSION)
+    print(PYOS_VERSION)
     print("""
 Commands:
  search <text>  Search the web

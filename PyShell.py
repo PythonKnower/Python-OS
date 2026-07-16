@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 start_time = t.time()
 
-PYOS_VERSION = "v0.09.0-Alpha"
+PYOS_VERSION = "v0.10.0-dev"
 PS_VERSION = "v0.18.0-Beta-8"
 username = "PyShell"
 

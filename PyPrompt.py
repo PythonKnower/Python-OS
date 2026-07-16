@@ -5,7 +5,7 @@ import os
 init()
 
 PYC_VERSION = "v0.0.1-Alpha-7"
-PYOS_VERSION = "v0.09.0-Alpha"
+PYOS_VERSION = "v0.10.0-dev"
 
 
 # -------------------------
